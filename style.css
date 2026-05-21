@@ -166,8 +166,18 @@ label .close_btn {
 
 /* Hero Section */
 .hero_section {
+    position: relative;
     min-height: 100vh;
-    background: url(images/fabio_background.jpg);
+    background: url(images/it_support.png);
+    background-color: black;
+
+}
+
+.hero_section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.58);
 }
 
 .hero_container {
@@ -178,6 +188,13 @@ label .close_btn {
     padding-top: 85px;
     min-height: calc(100vh - 85px);
     justify-content: space-between;
+}
+
+.hero_container .text_section{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    z-index: 2;
 }
 
 .hero_container .text_section h2 {
