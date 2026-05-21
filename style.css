@@ -167,7 +167,7 @@ label .close_btn {
 /* Hero Section */
 .hero_section {
     min-height: 100vh;
-    background: var(--primary-color);
+    background: url(images/fabio_background.jpg);
 }
 
 .hero_container {
@@ -200,9 +200,25 @@ label .close_btn {
     max-width: 70%;
 }
 
+.hero_container .text_section ul{
+    margin: 20px auto 40px 0;
+}
+
+
+.hero_container .text_section ul li {
+    color: gray;
+    font-size: 1.2rem;
+
+}
+
+.hero_section_button input{
+    width: 300px;
+    padding-inline: 10px;
+}
+
 .hero_container .hero_section_button {
     display: flex;
-    gap: 24px;
+    gap: 5px;
 }
 
 .hero_container .hero_section_button .button {
@@ -210,7 +226,7 @@ label .close_btn {
     border: 2px solid transparent;
     outline: none;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 5px;
     background: var(--secondary-color);
     color: var(--primary-color);
     font-size: 1rem;
@@ -218,21 +234,21 @@ label .close_btn {
     transition: all 0.4s ease;
 }
 
-.hero_container .hero_section_button .button:last-child {
+.hero_container .hero_section_button .button {
     color: var(--white-color);
     
-    background: none;
+    background: var(--secondary-color);
 }
 
-.hero_container .hero_section_button .button:first-child:hover {
+.hero_container .hero_section_button .button {
     color: var(--white-color);
     background: rgb(128, 128, 248);
     
 }
 
-.hero_container .hero_section_button .button:last-child:hover {
-    color: var(--primary-color);
-    background: rgb(128, 128, 248);
+.hero_container .hero_section_button .button:hover {
+    color: var(--grey-color);
+    background: rgb(69, 69, 236);
     
 }
 
