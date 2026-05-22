@@ -168,8 +168,9 @@ label .close_btn {
 .hero_section {
     position: relative;
     min-height: 100vh;
-    background: url(images/it_support.png);
+    background: url(images/JBTech_background.png);
     background-color: black;
+    
 
 }
 
@@ -177,7 +178,7 @@ label .close_btn {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.58);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .hero_container {
@@ -198,8 +199,8 @@ label .close_btn {
 }
 
 .hero_container .text_section h2 {
-    font-size: 40px;
-    color: var(--secondary-color);
+    font-size: 3rem;
+    color: var(--white-color);
 }
 
 .hero_container .text_section h3 {
@@ -270,9 +271,10 @@ label .close_btn {
 }
 
 .hero_container .image_section {
-    max-width: 45%;
+    max-width: 100%;
     display: flex;
     justify-content: right;
+    width: 700px;
 }
 
 .hero_container .image_section img {
@@ -281,7 +283,7 @@ label .close_btn {
 
 /* About Us Section */
 .about_us {
-    padding: 60px 20px 120px;
+    padding: 60px 20px 50px;
     background: var(--light-gray-color);
 }
 
@@ -292,6 +294,9 @@ label .close_btn {
     align-items: center;
 }
 
+.section_title{
+    padding: 50px 0;
+}
 .about_container .text_section {
     max-width: 50%;
 }
@@ -319,6 +324,8 @@ label .close_btn {
     padding: 60px 20px 120px;
 }
 
+
+
 .services .service_container {
     display: flex;
     justify-content: space-between;
@@ -328,7 +335,8 @@ label .close_btn {
 }
 
 .section_container .services_items img {
-    width: 100%;
+    width: 400px;
+    border-radius: 15px;
 }
 
 .section_container .services_items {
