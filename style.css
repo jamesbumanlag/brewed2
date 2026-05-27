@@ -68,7 +68,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 1;
-    background: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 nav {
@@ -170,6 +170,8 @@ label .close_btn {
     min-height: 100vh;
     background: url(images/JBTech_background.png);
     background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
     
 
 }
@@ -719,6 +721,8 @@ footer {
         max-width: 45px;
     }
 
+   
+
     nav .nav_logo h2 {
         font-size: 30px;
     }
@@ -746,6 +750,11 @@ footer {
     .about_container .image_section {
         max-width: 70%;
     }
+
+    .nav_logo .searchBar-Container {
+        display: none;
+    }
+
 
     .button {
         padding: 10px 20px !important;
