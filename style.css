@@ -328,6 +328,7 @@ label .close_btn {
 
 
 
+
 .services .service_container {
     display: flex;
     justify-content: space-between;
@@ -337,7 +338,9 @@ label .close_btn {
 }
 
 .section_container .services_items img {
-    width: 400px;
+    width: 100%;
+    height: 350px;
+    
     border-radius: 15px;
 }
 
