@@ -90,25 +90,60 @@ nav .nav_logo .searchBar-Container{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    
     
     
 }
 
 nav .nav_logo .searchBar-Container .searchBtn{
-    width: 31px;
+    width: 15%;
     height: 30px;
+    position: absolute;
+    right: 0;
+    background:transparent;
+    color: beige;
+    border: none;
+    
 }
 
 nav .nav_logo .searchBar-Container .searchBtn img{
     width: 100%;
     height: 100%;
+    opacity: 1;
+    border: none;
+    background:none;
+    
+  
+}
+
+nav .nav_logo .searchBar-Container .searchBtn:hover{
+    background-color: rgba(245, 245, 220, 0.493);
+    color: black;
+    border-radius: 15px;
+   
     
 }
 
+nav .nav_logo .searchBar-Container .searchBtn:active{
+    background-color: beige;
+    color: black;
+    border-radius: 15px;
+   
+    
+}
+
+
+
 nav .nav_logo div input{
     height: 30px;
-    width: 450px;
+    width: 350px;
     padding-inline: 15px;
+    border-radius: 15px;
+    border: 1px solid beige;
+    background: transparent;
+    caret-color: beige;
+    color: var(--beige-color);
 }
 
 nav .nav_logo a {
